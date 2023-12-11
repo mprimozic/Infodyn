@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Informatica proprietary -->
+<!DOCTYPE POWERMART SYSTEM "powrmart.dtd">
+<POWERMART CREATION_DATE="12/11/2023 09:34:32" REPOSITORY_VERSION="189.98">
+<REPOSITORY NAME="Dev_PowerCenter_Repository_Service" VERSION="189" CODEPAGE="UTF-8" DATABASETYPE="Oracle">
+<FOLDER NAME="mapi_dev" GROUP="" OWNER="Administrator" SHARED="NOTSHARED" DESCRIPTION="" PERMISSIONS="rwx---r--" UUID="6221d650-f936-47a8-b9f8-7488a9cb798b">
+    <TRANSFORMATION DESCRIPTION ="" NAME ="TestTransformation" OBJECTVERSION ="1" REUSABLE ="YES" TYPE ="Aggregator" VERSIONNUMBER ="1">
+        <TRANSFORMFIELD DATATYPE ="double" DEFAULTVALUE ="" DESCRIPTION ="" NAME ="NEWFIELD" PICTURETEXT ="" PORTTYPE ="INPUT" PRECISION ="15" SCALE ="0"/>
+        <TRANSFORMFIELD DATATYPE ="integer" DEFAULTVALUE ="ERROR(&apos;transformation error&apos;)" DESCRIPTION ="" EXPRESSION ="CEIL(NEWFIELD)" EXPRESSIONTYPE ="GENERAL" NAME ="NEWFIELD1" PICTURETEXT ="" PORTTYPE ="OUTPUT" PRECISION ="10" SCALE ="0"/>
+        <TABLEATTRIBUTE NAME ="Cache Directory" VALUE ="$PMCacheDir"/>
+        <TABLEATTRIBUTE NAME ="Tracing Level" VALUE ="Normal"/>
+        <TABLEATTRIBUTE NAME ="Sorted Input" VALUE ="NO"/>
+        <TABLEATTRIBUTE NAME ="Aggregator Data Cache Size" VALUE ="Auto"/>
+        <TABLEATTRIBUTE NAME ="Aggregator Index Cache Size" VALUE ="Auto"/>
+        <TABLEATTRIBUTE NAME ="Transformation Scope" VALUE ="All Input"/>
+    </TRANSFORMATION>
+</FOLDER>
+</REPOSITORY>
+</POWERMART>
