@@ -1,0 +1,7 @@
+CREATE TABLE "testtable" (
+"column10" int4 NOT NULL,
+"column11" varchar NOT NULL,
+"column12" varchar NOT NULL,
+"column13" varchar,
+"column14" varchar
+)

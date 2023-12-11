@@ -1,0 +1,1 @@
+ALTER TABLE "testtable" ADD CONSTRAINT "chk_testtable2" CHECK ((column10 > 3));

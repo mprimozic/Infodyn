@@ -1,0 +1,1 @@
+ALTER TABLE "testtable" ADD CONSTRAINT "unq_testtable2" UNIQUE (column12);

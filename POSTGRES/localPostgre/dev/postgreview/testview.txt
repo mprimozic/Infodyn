@@ -1,0 +1,2 @@
+CREATE VIEW "testview" AS  SELECT column10
+   FROM testtable;;
