@@ -1,0 +1,10 @@
+CREATE FUNCTION dev.function5603 (@storeid int)
+RETURNS TABLE
+AS
+RETURN
+(
+    SELECT a.col1
+    FROM dev.view5603parent AS a
+    join dev.table5540 AS b ON b.column3 = a.col2
+    WHERE b.col4 = @storeid
+);

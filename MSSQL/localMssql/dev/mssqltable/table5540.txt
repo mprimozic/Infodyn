@@ -1,0 +1,7 @@
+CREATE TABLE [dev].[table5540] (
+[col1] int NULL,
+[col2] int NULL,
+[column3] int NULL,
+[col4] int NULL
+)
+ON [PRIMARY];
