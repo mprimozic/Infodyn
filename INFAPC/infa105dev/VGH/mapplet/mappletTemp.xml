@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Informatica proprietary -->
+<!DOCTYPE POWERMART SYSTEM "powrmart.dtd">
+<POWERMART CREATION_DATE="02/14/2025 09:43:47" REPOSITORY_VERSION="189.98">
+<REPOSITORY NAME="Dev_PowerCenter_Repository_Service" VERSION="189" CODEPAGE="UTF-8" DATABASETYPE="Oracle">
+<FOLDER NAME="VGH2" GROUP="" OWNER="Administrator" SHARED="SHARED" DESCRIPTION="" PERMISSIONS="rwx---r--" UUID="9313fda5-de92-475c-94b0-84d8769406bd">
+    <MAPPLET DESCRIPTION ="IFDYN-M-1 IFDYN-M-2 IFDYN-M-1 " ISVALID ="YES" NAME ="mappletTemp" OBJECTVERSION ="1" VERSIONNUMBER ="1">
+        <TRANSFORMATION DESCRIPTION ="" NAME ="SQ_Shortcut_to_sourceTemp" OBJECTVERSION ="1" REUSABLE ="NO" TYPE ="Source Qualifier" VERSIONNUMBER ="1">
+            <TRANSFORMFIELD DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="" NAME ="NEWFIELD" PICTURETEXT ="" PORTTYPE ="INPUT/OUTPUT" PRECISION ="10" SCALE ="0"/>
+            <TRANSFORMFIELD DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="" NAME ="NEWFIELD1" PICTURETEXT ="" PORTTYPE ="INPUT/OUTPUT" PRECISION ="10" SCALE ="0"/>
+            <TABLEATTRIBUTE NAME ="Sql Query" VALUE =""/>
+            <TABLEATTRIBUTE NAME ="User Defined Join" VALUE =""/>
+            <TABLEATTRIBUTE NAME ="Source Filter" VALUE =""/>
+            <TABLEATTRIBUTE NAME ="Number Of Sorted Ports" VALUE ="0"/>
+            <TABLEATTRIBUTE NAME ="Tracing Level" VALUE ="Normal"/>
+            <TABLEATTRIBUTE NAME ="Select Distinct" VALUE ="NO"/>
+            <TABLEATTRIBUTE NAME ="Is Partitionable" VALUE ="NO"/>
+            <TABLEATTRIBUTE NAME ="Pre SQL" VALUE =""/>
+            <TABLEATTRIBUTE NAME ="Post SQL" VALUE =""/>
+            <TABLEATTRIBUTE NAME ="Output is deterministic" VALUE ="NO"/>
+            <TABLEATTRIBUTE NAME ="Output is repeatable" VALUE ="Never"/>
+        </TRANSFORMATION>
+        <TRANSFORMATION DESCRIPTION ="" NAME ="mappOutp1" OBJECTVERSION ="1" REUSABLE ="NO" TYPE ="Output Transformation" VERSIONNUMBER ="1">
+            <TRANSFORMFIELD DATATYPE ="string" DEFAULTVALUE ="" DESCRIPTION ="" NAME ="NEWFIELD" PICTURETEXT ="" PORTTYPE ="INPUT" PRECISION ="10" SCALE ="0"/>
+        </TRANSFORMATION>
+        <TRANSFORMATION DESCRIPTION ="IFDYN-M-1 IFDYN-M-2 IFDYN-M-1 " NAME ="mappletTemp" OBJECTVERSION ="1" REUSABLE ="YES" TYPE ="Mapplet" VERSIONNUMBER ="1">
+            <TRANSFORMFIELD DATATYPE ="integer" DEFAULTVALUE ="ERROR(&apos;transformation error&apos;)" DESCRIPTION ="" MAPPLETGROUP ="mappOutp1" NAME ="NEWFIELD" PICTURETEXT ="" PORTTYPE ="OUTPUT" PRECISION ="10" REF_FIELD ="NEWFIELD" REF_INSTANCETYPE ="Output Transformation" SCALE ="0"/>
+            <TABLEATTRIBUTE NAME ="Is Active" VALUE ="YES"/>
+            <TABLEATTRIBUTE NAME ="Is Partitionable" VALUE ="NO"/>
+            <TABLEATTRIBUTE NAME ="Form Name" VALUE =""/>
+        </TRANSFORMATION>
+        <INSTANCE DBDNAME ="Oracle" DESCRIPTION ="" NAME ="Shortcut_to_sourceTemp" TRANSFORMATION_NAME ="Shortcut_to_sourceTemp" TRANSFORMATION_TYPE ="Source Definition" TYPE ="SOURCE"/>
+        <INSTANCE DESCRIPTION ="" NAME ="SQ_Shortcut_to_sourceTemp" REUSABLE ="NO" TRANSFORMATION_NAME ="SQ_Shortcut_to_sourceTemp" TRANSFORMATION_TYPE ="Source Qualifier" TYPE ="TRANSFORMATION">
+            <ASSOCIATED_SOURCE_INSTANCE NAME ="Shortcut_to_sourceTemp"/>
+        </INSTANCE>
+        <INSTANCE DESCRIPTION ="" NAME ="Shortcut_to_transfTemp" REUSABLE ="YES" TRANSFORMATION_NAME ="Shortcut_to_transfTemp" TRANSFORMATION_TYPE ="Expression" TYPE ="TRANSFORMATION"/>
+        <INSTANCE DESCRIPTION ="" NAME ="mappOutp1" REUSABLE ="NO" TRANSFORMATION_NAME ="mappOutp1" TRANSFORMATION_TYPE ="Output Transformation" TYPE ="TRANSFORMATION"/>
+        <INSTANCE DESCRIPTION ="" NAME ="transpTemp" REUSABLE ="YES" TRANSFORMATION_NAME ="transpTemp" TRANSFORMATION_TYPE ="Expression" TYPE ="TRANSFORMATION"/>
+        <CONNECTOR FROMFIELD ="NEWFIELD" FROMINSTANCE ="Shortcut_to_sourceTemp" FROMINSTANCETYPE ="Source Definition" TOFIELD ="NEWFIELD" TOINSTANCE ="SQ_Shortcut_to_sourceTemp" TOINSTANCETYPE ="Source Qualifier"/>
+        <CONNECTOR FROMFIELD ="NEWFIELD1" FROMINSTANCE ="Shortcut_to_sourceTemp" FROMINSTANCETYPE ="Source Definition" TOFIELD ="NEWFIELD1" TOINSTANCE ="SQ_Shortcut_to_sourceTemp" TOINSTANCETYPE ="Source Qualifier"/>
+        <CONNECTOR FROMFIELD ="NEWFIELD" FROMINSTANCE ="SQ_Shortcut_to_sourceTemp" FROMINSTANCETYPE ="Source Qualifier" TOFIELD ="NEWFIELD" TOINSTANCE ="transpTemp" TOINSTANCETYPE ="Expression"/>
+        <CONNECTOR FROMFIELD ="NEWFIELD1" FROMINSTANCE ="transpTemp" FROMINSTANCETYPE ="Expression" TOFIELD ="NEWFIELD" TOINSTANCE ="Shortcut_to_transfTemp" TOINSTANCETYPE ="Expression"/>
+        <CONNECTOR FROMFIELD ="NEWFIELD1" FROMINSTANCE ="Shortcut_to_transfTemp" FROMINSTANCETYPE ="Expression" TOFIELD ="NEWFIELD" TOINSTANCE ="mappOutp1" TOINSTANCETYPE ="Output Transformation"/>
+        <ERPINFO/>
+    </MAPPLET>
+</FOLDER>
+</REPOSITORY>
+</POWERMART>

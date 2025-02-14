@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Informatica proprietary -->
+<!DOCTYPE POWERMART SYSTEM "powrmart.dtd">
+<POWERMART CREATION_DATE="02/14/2025 09:43:20" REPOSITORY_VERSION="189.98">
+<REPOSITORY NAME="Dev_PowerCenter_Repository_Service" VERSION="189" CODEPAGE="UTF-8" DATABASETYPE="Oracle">
+<FOLDER NAME="VGH1" GROUP="" OWNER="Administrator" SHARED="SHARED" DESCRIPTION="" PERMISSIONS="rwx---r--" UUID="69e2d0c9-3eba-4e7e-85e0-3c8012ea3240">
+    <SHORTCUT COMMENTS ="" FOLDERNAME ="VGH3" NAME ="Shortcut_to_targetTemp2" OBJECTSUBTYPE ="Target Definition" OBJECTTYPE ="TARGET" REFERENCETYPE ="LOCAL" REFOBJECTNAME ="targetTemp2" REPOSITORYNAME ="Dev_PowerCenter_Repository_Service" VERSIONNUMBER ="1"/>
+</FOLDER>
+</REPOSITORY>
+</POWERMART>
