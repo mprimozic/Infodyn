@@ -1,3 +1,0 @@
-CREATE OR REPLACE FORCE EDITIONABLE VIEW "VIEWBLJO" ("COL1") AS 
-  select col1
-from bljo
