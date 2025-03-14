@@ -1,0 +1,8 @@
+
+  CREATE TABLE "A" 
+   (	"COL1" NUMBER(*,0), 
+	"COL2" NUMBER(*,0), 
+	"COL3" NUMBER(*,0), 
+	"COLUMN1" VARCHAR2(20 BYTE), 
+	"NEWOCL" VARCHAR2(20 BYTE)
+   ) 

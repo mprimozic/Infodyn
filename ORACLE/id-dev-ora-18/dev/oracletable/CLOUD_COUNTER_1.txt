@@ -1,0 +1,4 @@
+
+  CREATE TABLE "CLOUD_COUNTER_1" 
+   (	"COUNT" NUMBER
+   ) 

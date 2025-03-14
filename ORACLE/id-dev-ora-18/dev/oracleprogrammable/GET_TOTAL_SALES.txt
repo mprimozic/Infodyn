@@ -1,0 +1,17 @@
+
+  CREATE OR REPLACE EDITIONABLE FUNCTION "GET_TOTAL_SALES" (
+    in_year PLS_INTEGER
+) 
+RETURN NUMBER
+IS
+    l_total_sales NUMBER := 0;
+BEGIN
+    -- get total sales
+    SELECT SUM(postal_code)
+    INTO l_total_sales
+    FROM customers
+    WHERE state = 'dev' OR state = 'DEV' OR state = '' OR state = '';
+
+    -- return the total sales
+    RETURN l_total_sales;
+END;

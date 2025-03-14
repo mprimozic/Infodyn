@@ -1,0 +1,5 @@
+
+  CREATE TABLE "TABLEIDMCMAPI" 
+   (	"COL1" NUMBER(*,0), 
+	"COL2" NUMBER(*,0)
+   ) 

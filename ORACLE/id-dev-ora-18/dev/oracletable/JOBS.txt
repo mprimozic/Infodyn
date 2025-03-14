@@ -1,0 +1,5 @@
+
+  CREATE TABLE "JOBS" 
+   (	"JOB_ID" NUMBER(*,0), 
+	"JOB_DESC" VARCHAR2(72 BYTE)
+   ) 

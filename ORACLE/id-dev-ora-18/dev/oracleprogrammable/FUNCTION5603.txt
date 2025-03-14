@@ -1,0 +1,12 @@
+
+  CREATE OR REPLACE EDITIONABLE FUNCTION "FUNCTION5603" (col1 IN varchar2) 
+return varchar2 
+is res varchar2(64);
+
+begin
+select view5603parent.col1
+into res
+from view5603parent
+where view5603parent.col1 = col1;
+return (res);
+end;

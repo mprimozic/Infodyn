@@ -1,0 +1,4 @@
+
+  CREATE TABLE "BIBA" 
+   (	"COLUMN1" VARCHAR2(20 BYTE)
+   ) 

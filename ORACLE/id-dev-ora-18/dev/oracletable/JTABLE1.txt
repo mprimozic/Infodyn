@@ -1,0 +1,4 @@
+
+  CREATE TABLE "JTABLE1" 
+   (	"COLUMN1" VARCHAR2(20 BYTE) DEFAULT 'null'
+   ) 

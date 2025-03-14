@@ -1,0 +1,6 @@
+
+  CREATE TABLE "C" 
+   (	"COL1" NUMBER(*,0), 
+	"COL2" NUMBER(*,0), 
+	"COL3" NUMBER(*,0)
+   ) 

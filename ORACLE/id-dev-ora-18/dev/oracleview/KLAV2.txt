@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE EDITIONABLE VIEW "KLAV2" ("A", "B", "C", "D") AS 
+  select "A","B","C","D" from kla2

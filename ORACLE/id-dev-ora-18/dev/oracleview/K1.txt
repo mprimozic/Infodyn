@@ -1,0 +1,2 @@
+CREATE OR REPLACE FORCE EDITIONABLE VIEW "K1" ("A") AS 
+  select "A" from k

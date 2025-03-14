@@ -1,0 +1,4 @@
+
+  CREATE TABLE "CLOUD_MULTIPLIER" 
+   (	"MUL" NUMBER
+   ) 

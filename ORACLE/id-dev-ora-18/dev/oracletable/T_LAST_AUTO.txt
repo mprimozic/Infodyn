@@ -1,0 +1,4 @@
+
+  CREATE TABLE "T_LAST_AUTO" 
+   (	"COLUMN1" VARCHAR2(20 BYTE)
+   ) 

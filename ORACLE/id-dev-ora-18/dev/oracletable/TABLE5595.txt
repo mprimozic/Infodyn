@@ -1,0 +1,6 @@
+
+  CREATE TABLE "TABLE5595" 
+   (	"col1" DATE, 
+	"COL2" NUMBER(*,0), 
+	"col3" NUMBER(*,0)
+   ) 

@@ -1,0 +1,5 @@
+
+  CREATE TABLE "DEMO_TAB2" 
+   (	"A1" NUMBER(*,0), 
+	"COL" NUMBER(*,0)
+   ) 

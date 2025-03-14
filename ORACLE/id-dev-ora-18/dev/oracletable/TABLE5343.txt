@@ -1,0 +1,4 @@
+
+  CREATE TABLE "TABLE5343" 
+   (	"COLUMN1" NUMBER
+   ) 
