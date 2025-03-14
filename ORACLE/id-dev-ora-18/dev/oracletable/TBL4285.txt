@@ -1,4 +1,0 @@
-
-  CREATE TABLE "TBL4285" 
-   (	"COLUMN1" VARCHAR2(20 BYTE)
-   ) 

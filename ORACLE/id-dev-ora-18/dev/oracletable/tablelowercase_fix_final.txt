@@ -1,5 +1,0 @@
-
-  CREATE TABLE "tablelowercase_fix_final" 
-   (	"COL1" NUMBER(*,0), 
-	"COL2" NUMBER(*,0)
-   ) 

@@ -1,8 +1,0 @@
-
-  CREATE TABLE "KLACLOB1" 
-   (	"A" NUMBER(*,0), 
-	"B" NUMBER(*,0), 
-	"C" CLOB, 
-	"D" BLOB, 
-	"E" NCLOB
-   ) 

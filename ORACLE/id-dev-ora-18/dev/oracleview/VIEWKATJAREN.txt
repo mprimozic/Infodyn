@@ -1,4 +1,0 @@
-CREATE OR REPLACE FORCE EDITIONABLE VIEW "VIEWKATJAREN" ("NAME", "SURNAME", "AGE") AS 
-  select name, surname, age
-from tableKatja
-where age = (SELECT MAX( age ) FROM tableKatja)

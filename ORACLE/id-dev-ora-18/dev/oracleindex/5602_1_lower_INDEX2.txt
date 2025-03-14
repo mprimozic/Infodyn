@@ -1,3 +1,0 @@
-
-  CREATE INDEX "5602_1_lower_INDEX2" ON "5602_1_lower" ("COL2") 
-  

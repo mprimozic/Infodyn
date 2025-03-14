@@ -1,5 +1,0 @@
-
-  CREATE TABLE "LOW_UPP_5602" 
-   (	"COL1" NUMBER(*,0), 
-	"COL2" NUMBER(*,0)
-   ) 

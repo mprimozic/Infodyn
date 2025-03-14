@@ -1,3 +1,0 @@
-
-  CREATE INDEX "INDEX5595" ON "TABLE5595" ("col1") 
-  

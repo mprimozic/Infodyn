@@ -1,7 +1,0 @@
-
-  CREATE TABLE "KLA2" 
-   (	"A" NUMBER(*,0), 
-	"B" NUMBER(*,0), 
-	"C" NUMBER(*,0), 
-	"D" NUMBER(*,0)
-   ) 

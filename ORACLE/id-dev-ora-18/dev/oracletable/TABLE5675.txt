@@ -1,7 +1,0 @@
-
-  CREATE TABLE "TABLE5675" 
-   (	"COL1" NUMBER(*,0), 
-	"COL2" NUMBER(*,0), 
-	"COL3" NUMBER(*,0), 
-	"COL4" VARCHAR2(20 BYTE)
-   ) 

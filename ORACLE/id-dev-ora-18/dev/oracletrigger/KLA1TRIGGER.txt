@@ -1,6 +1,0 @@
-
-  CREATE OR REPLACE EDITIONABLE TRIGGER "KLA1TRIGGER" after insert on kla1
-BEGIN
-insert into triggCount values (1);
-END;
-ALTER TRIGGER "KLA1TRIGGER" ENABLE

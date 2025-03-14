@@ -1,5 +1,0 @@
-
-  CREATE TABLE "TABLE5623" 
-   (	"COL1" NUMBER(*,0), 
-	"COL2" NUMBER(*,0)
-   ) 

@@ -1,3 +1,0 @@
-
-  CREATE INDEX "I_N_U_LOG_TASKS" ON "LOG_TASKS" ("TASK_ID", "JOB_ID") 
-  

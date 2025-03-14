@@ -1,4 +1,0 @@
-
-  CREATE TABLE "COH1" 
-   (	"COLUMN1" VARCHAR2(20 BYTE)
-   ) 

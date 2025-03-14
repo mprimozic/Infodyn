@@ -1,8 +1,0 @@
-
-  CREATE TABLE "5602_1_lower" 
-   (	"COL1" NUMBER(*,0), 
-	"COL2" NUMBER(*,0), 
-	"COL3_LOW_UPP" VARCHAR2(20 BYTE), 
-	"col4DlL" NUMBER(*,0), 
-	"COLUMN1" VARCHAR2(20 BYTE)
-   ) 

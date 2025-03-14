@@ -1,5 +1,0 @@
-
-  CREATE TABLE "TABLE1412" 
-   (	"ID" NUMBER(*,0), 
-	"NAME" VARCHAR2(100 BYTE)
-   ) 

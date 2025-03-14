@@ -1,4 +1,0 @@
-
-  CREATE TABLE "TAB_DAVID" 
-   (	"COLUMN1" VARCHAR2(20 BYTE)
-   ) 

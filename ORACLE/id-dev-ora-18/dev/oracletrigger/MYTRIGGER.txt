@@ -1,7 +1,0 @@
-
-  CREATE OR REPLACE EDITIONABLE TRIGGER "MYTRIGGER" after
-insert on t_entity
-BEGIN
-insert into triggCount values (1);
-END;
-ALTER TRIGGER "MYTRIGGER" ENABLE

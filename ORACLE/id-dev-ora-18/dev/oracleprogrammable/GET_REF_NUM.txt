@@ -1,7 +1,0 @@
-
-  CREATE OR REPLACE EDITIONABLE FUNCTION "GET_REF_NUM" RETURN settlement.ref_nr %TYPE IS
-      v_ref_seq settlement.ref_nr%TYPE;
-    BEGIN
-      v_ref_seq := to_char(sysdate, 'YYYYMMDD')||LPAD(ref_seq_num.nextval, 8,'0');
-      RETURN v_ref_seq;
-    END get_ref_num;

@@ -1,5 +1,0 @@
-
-  CREATE TABLE "nesquick" 
-   (	"COL1" NUMBER(*,0) DEFAULT "SEQUENCE5585"."NEXTVAL", 
-	"COL2" NUMBER(*,0)
-   ) 

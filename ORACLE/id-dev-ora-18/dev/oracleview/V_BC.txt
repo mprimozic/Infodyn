@@ -1,2 +1,0 @@
-CREATE OR REPLACE FORCE EDITIONABLE VIEW "V_BC" ("ACOL1", "BCOL1") AS 
-  select B.col1 acol1, C.col1 bcol1 from C, B

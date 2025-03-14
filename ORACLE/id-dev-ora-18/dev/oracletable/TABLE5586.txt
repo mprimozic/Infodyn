@@ -1,5 +1,0 @@
-
-  CREATE TABLE "TABLE5586" 
-   (	"COL1" NUMBER(*,0) DEFAULT sequence5585.nextval, 
-	"COL2" NUMBER(*,0)
-   ) 

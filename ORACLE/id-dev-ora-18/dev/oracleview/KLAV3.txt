@@ -1,4 +1,0 @@
-CREATE OR REPLACE FORCE EDITIONABLE VIEW "KLAV3" ("A", "D", "COL3") AS 
-  select v2.a, v2.d, v1.col3
-from klav2 v2 
-join klav1 v1 on v1.col1 = v2.b and v1.col2 = v2.c
