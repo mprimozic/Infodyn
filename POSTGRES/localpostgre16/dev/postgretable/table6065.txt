@@ -1,5 +1,5 @@
 CREATE TABLE "table6065" (
 "column1" int4,
 "column2r" numeric(1),
-"column3" bool
+"column3r" numeric(1)
 )
