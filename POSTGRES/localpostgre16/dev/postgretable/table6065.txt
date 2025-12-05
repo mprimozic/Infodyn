@@ -1,4 +1,4 @@
 CREATE TABLE "table6065" (
 "column1" int4,
-"column2" numeric(1)
+"column2r" numeric(1)
 )
