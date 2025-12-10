@@ -1,0 +1,4 @@
+CREATE TABLE "table6060" (
+"col1" int4,
+"col2" bool
+)
