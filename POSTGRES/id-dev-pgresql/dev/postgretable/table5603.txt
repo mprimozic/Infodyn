@@ -1,0 +1,5 @@
+CREATE TABLE "table5603" (
+"col1" int4 NOT NULL,
+"col2" int4 NOT NULL,
+"col3" int4
+)
